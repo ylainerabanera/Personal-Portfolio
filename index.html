@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="webname">
+                <a href="index.html">Ylaine</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home-section">
+            <div class="intro-content">
+                <p class="upper-intro">Hey there!</p>
+                <h1>I'm Ylaine</h1>
+                <p class="lower-intro">an IT Graduate with a passion for Web Development and Graphic Design</p>
+                <!-- <button class="download-cv-btn">Download CV</button> -->
+                <a href="CV/My Resume.pdf" class="button download-cv-btn" download>
+                    Download CV
+                </a>
+            </div>
+            <div class="profile-pic-1">
+                <img src="img/Me.jpg" alt="profile">
+            </div>
+        </section>
+
+        <section class="about" id="about-section">
+            <div class="profile-pic-2">
+                <img src="img/2x2.jpg" alt="profile-about">
+            </div>
+            <div class="personal-details">
+                <div class="description">
+                    <h1>About Me</h1>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus felis mauris, a auctor massa fermentum commodo.</p> -->
+                    <p>I’m an IT graduate with a strong passion for web development and graphic design. I am eager to continue learning, and focused on building user-friendly websites and creating visually engaging designs. I’m excited to apply my skills and grow.</p>
+                </div>
+                <div class="personal-info-list">
+                    <h2>Personal Information</h2>
+                    <div class="list-item">
+                        <div class="title"><h4>Name:</h4></div>
+                        <div class="info"><p>Ylaine</p></div>
+                    </div>
+                    <div class="list-item">
+                        <div class="title"><h4>Age:</h4></div>
+                        <div class="info"><p>23</p></div>
+                    </div>
+                    <div class="list-item">
+                        <div class="title"><h4>Date of Birth:</h4></div>
+                        <div class="info"><p>December 28, 2001</p></div>
+                    </div>
+                    <div class="list-item">
+                        <div class="title"><h4>Birthplace:</h4></div>
+                        <div class="info"><p>Alaminos Pangasinan</p></div>
+                    </div>
+                    <div class="list-item">
+                        <div class="title"><h4>Nationality:</h4></div>
+                        <div class="info"><p>Filipino</p></div>
+                    </div>
+                </div>    
+            </div>
+        </section>        
+
+        <section id="project-section">
+            <h1>Projects</h1>
+            <div class="project-subsection">
+                <h2 class="system">Web Development</h2>
+                <div class="swiper card-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Airline-Flight-Reservation-System.git" target="_blank" class="project-box">
+                                    <img src="img/Capstone Project.jpg" alt="Capstone Project">
+                                    <h4>Airline Flight Reservation System</h4>
+                                    <h5><em>LARAVEL</em></h5>
+                                    <p>This is a system simulation developed for BSTM students enrolled at Pangasinan State University, Alaminos City Campus, as part of their curriculum.</p>
+                                </a>
+                            </div>  
+                        </div>
+            
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Guess-the-Song-Game.git" target="_blank" class="project-box">
+                                    <img src="img/Final Project - Game.jpg" alt="Circles">
+                                    <h4>Guess the Song Game</h4>
+                                    <h5><em>PYTHON</em></h5>
+                                    <p>Guess the Song game is developed using Python, offering a fun challenge where players must identify Tagalog songs within a limited time. The game features multiple levels with varying song genres and difficulty levels.</p>
+                                </a>
+                            </div>
+                        </div>  
+
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Casual-Clothing-Simple-E-commerce-Website" target="_blank" class="project-box">
+                                    <img src="img/Simple E-commerce Website.jpg" alt="Github Issues">
+                                    <h4>Casual Clothing E-commerce Website</h4>
+                                    <h5><em>HTML, CSS, JS</em></h5>
+                                    <p>The Casual Clothing E-commerce Website is one of the simple yet functional e-commerce websites I created during my academic commissions.</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Laguna-Event-Supplier" target="_blank" class="project-box">
+                                    <img src="img/Alive Website.png" alt="Chibi Luffy">
+                                    <h4>Alive - Laguna Event Supplier</h4>
+                                    <h5><em>LARAVEL</em></h5>
+                                    <p>Alive - Laguna Event Supplier Website/System is one of the websites/systems I worked on during my academic commissions. I was responsible to fix front-end development, and some minor back-end.</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Vividus" target="_blank" class="project-box">
+                                    <img src="img/Vividus.jpg" alt="Functional Adventure">
+                                    <h4>Vividus</h4>
+                                    <h5><em>HTML, CSS, JS</em></h5>
+                                    <p>The Vividus E-commerce Website is one of the simple yet functional e-commerce websites I created during my academic commissions.</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="content-card">
+                                <a href="https://github.com/Whylane/Personal-Portfolio" target="_blank" class="project-box">
+                                    <img src="img/My Personal Website.jpg" alt="My Personal Website">
+                                    <h4>My Personal Portfolio Website</h4>
+                                    <h5><em>HTML, CSS, JS</em></h5>
+                                    <p>This my Personal Porfolio Website showcasing my projects and skills in web development and graphic design.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-subsection">
+                    <h2 class="design">Design</h2>
+                    <div class="swiper card-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 1.jpg" alt="Social Media Post - 1" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Social Media Post / Banner for IT Fest</h4>
+                                        <h5><em>CANVA</em></h5>
+                                        <p>Social media post I created prior to the IT FEST during my college years at Pangasinan State University, Alaminos City Campus</p>
+                                    </a>
+                                </div>  
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 2.jpg" alt="Trifold Brochure 1" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Wildlife Conservation and Protection</h4>
+                                        <h5><em>PHOTOSHOP</em></h5>
+                                        <p>A trifold brochure I designed during my Government Internship Program (GIP) in Alaminos City ENRO</p>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 3.jpg" alt="Tarpaulin" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Mobile Environmental Permitting Services</h4>
+                                        <h5><em>PHOTOSHOP</em></h5>
+                                        <p>A tarpaulin I designed during my Government Internship Program (GIP) in Alaminos City, ENRO</p>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 4.jpg" alt="Trifold Brochure 2" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Dive into the Depths of your Mind</h4>
+                                        <h5><em>CANVA</em></h5>
+                                        <p>It is one of my Academic Commission</p>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 5.jpg" alt="Trifold Brochure 2" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Social Media Post</h4>
+                                        <h5><em>PHOTOSHOP</em></h5>
+                                        <p>Social media post I designed during my GIP in Alaminos City, ENRO</p>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Mockup 6.jpg" alt="Programme" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Programme</h4>
+                                        <h5><em>PHOTOSHOP AND CANVA</em></h5>
+                                        <p>Programme I designed during college, and GIP</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            
+                            <div class="swiper-slide">
+                                <div class="content-card">
+                                    <a class="project-box">
+                                        <img src="img/Logo.jpg" alt="Logo" class="image-thumbnail">
+                                        <p class="tap-view">(Tap the image to view the photo)</p>
+                                        <h4>Logo</h4>
+                                        <h5><em>ILLUSTRATOR</em></h5>
+                                        <p>Logo I designed during college</p>
+                                    </a>
+                                </div>
+                            </div>     
+                        </div>
+                        
+                        <!-- Modal (Hidden by default) -->
+                        <!-- <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage" oncontextmenu="return false;">
+                            <div id="caption"></div>
+                        </div> -->
+                    </div>
+
+                    <div class="project-subsection">
+                        <h2 class="photographs">Photographs</h2>
+                        <p class="photographs-descript">(Enhanced with Editing)</p>
+                        <div class="swiper card-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 1.jpg" alt="Photograph 1" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>Mangrove Planting</h4>
+                                            <h5><em>DSLR, LIGHTROOM</em></h5>
+                                            <p>Volunteerism Month Celebration "Pagkakaisa sa Pamamagitan ng Pagboboluntaryo" MANGROVE PLANTING</p>
+                                        </a>
+                                    </div>  
+                                </div>
+                    
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 2.jpg" alt="Photograph 2" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>Tree with Christmas Lights</h4>
+                                            <h5><em>MOBILE PHONE, LIGHTROOM</em></h5>
+                                            <p>Capturing the warmth and beauty of the holiday season, this Christmas tree lights up with its glowing lights and joyful atmosphere.</p></p>
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 3.jpg" alt="Photograph 3" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>A Sip and A Bite: The Perfect Pairing</h4>
+                                            <h5><em>MOBILE PHONE, LIGHTROOM</em></h5>
+                                            <p>Moments of indulgence captured savoring delicious food alongside a refreshing milk tea</p>
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 4.jpg" alt="Photograph 4" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>Couple</h4>
+                                            <h5><em>MOBILE PHONE, LIGHTROOM</em></h5>
+                                            <p>Showcasing the connection and the simplicity of love</p>
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 5.jpeg" alt="Photograph 5" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>Sunset</h4>
+                                            <h5><em>MOBILE PHONE, LIGHTROOM</em></h5>
+                                            <p>Capturing the serenity and beauty of the sunset</p>
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="swiper-slide">
+                                    <div class="content-card">
+                                        <a class="project-box">
+                                            <img src="img/Photograph 6.jpeg" alt="Photograph 6" class="image-thumbnail">
+                                            <p class="tap-view">(Tap the image to view the photo)</p>
+                                            <h4>Sunrise</h4>
+                                            <h5><em>MOBILE PHONE, LIGHTROOM</em></h5>
+                                            <p>Capturing the early morning light spilling across the horizon</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <h2 class="videography">Videography</h2>
+                            <p class="videography-descript">(Enhanced with Editing)
+                                <br>
+                                <a href="https://drive.google.com/drive/folders/1M4mb1P2iDiEC6xVzfdgppiXt04p71lKg?usp=sharing" class="view-sample-link">Click to View My Videography Samples</a>
+                            </p>
+                            
+                        </div>
+                            <!-- Modal (Hidden by default) -->
+                            <div id="imageModal" class="modal">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <img class="modal-content" id="modalImage" oncontextmenu="return false;">
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+
+                       
+        </section>
+
+        <section id="skills-section">
+            <h1 class="skills-heading">Skills</h1>
+            <div class="skill-container">
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3> 
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3>Photography</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact-section">
+            <div class="contact-container">
+                <h1 class="section-title">Contact</h1>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fa fa-map-marker-alt"></i> 
+                            <h2>Location</h2>
+                            <p>Magsaysay, Alaminos City, Pangasinan</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa fa-envelope"></i>
+                            <h2>Email</h2>
+                            <p>rabaneraylaine1228@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa fa-phone"></i>
+                            <h2>Cellphone Number</h2>
+                            <p>0915-581-2786</p>
+                        </div>
+                    </div>
+        
+                    <div class="contact-form">
+                        <h2>Send Me a Message</h2>
+                        <p>Whether you have a question, feedback, or just want to say hi, feel free to send me a message below. I'd love to hear from you!</p>
+                        <form id="contact-form" onsubmit="showAlert(event)">
+                            <input type="text" placeholder="Enter your name" class="input-field" required>
+                            <input type="email" placeholder="Enter your email" class="input-field" required>
+                            <textarea placeholder="Enter your message" class="input-field" rows="5" required></textarea>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+        
+          
+            </div>
+        </section>
+
+        <section id="social-links">
+            <div class="social-links-container">
+                <h2>Follow Me</h2>
+                <a href="#" class="social-icon instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="https://x.com/whylane_yrr" class="social-icon twitter"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+                <a href="#" class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.linkedin.com/in/ylaine-rabanera-0aa008345/" class="social-icon linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://github.com/Whylane" class="social-icon github"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </section>
+        
+        
+        
+        
+    </main>
+
+<footer>
+    <p class="footer-text">&copy; 2025 Ylaine. All Rights Reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        if (navLinks.classList.contains("active")) {
+            hamburger.innerHTML = "&times;"; 
+        } else {
+            hamburger.innerHTML = "&#9776;";
+        }
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper('.card-swiper', {
+            slidesPerView: 3, 
+            spaceBetween: 20,  
+            loop: true,         
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    });
+</script>
+
+<script>
+    const images = document.querySelectorAll('.image-thumbnail');
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+
+    images.forEach(image => {
+        image.onclick = function(event) {
+            event.preventDefault(); 
+            modal.style.display = "flex";
+            modalImage.src = this.src; 
+        };
+    });
+
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    }
+</script>
+<script>
+    function showAlert(event) {
+        event.preventDefault(); 
+        
+        alert("This feature is currently unavailable. Please send your message to: rabaneraylaine1228@.com");
+    }
+</script>
+</body>
+</html>
