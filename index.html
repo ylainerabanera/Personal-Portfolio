@@ -60,7 +60,7 @@
                     <h2>Personal Information</h2>
                     <div class="list-item">
                         <div class="title"><h4>Name:</h4></div>
-                        <div class="info"><p>Ylaine</p></div>
+                        <div class="info"><p>Ylaine R. Rabanera</p></div>
                     </div>
                     <div class="list-item">
                         <div class="title"><h4>Age:</h4></div>
@@ -444,27 +444,36 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js"></script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const swiper = new Swiper('.card-swiper', {
-            slidesPerView: 3, 
-            spaceBetween: 20,  
-            loop: true,         
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper('.card-swiper', {
+        slidesPerView: 3, 
+        spaceBetween: 20,  
+        loop: true,         
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            320: { // When screen width is 320px
+                slidesPerView: 2,
+                spaceBetween: 0, 
             },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+            480: { // When screen width is 480px or larger
+                slidesPerView: 3,
+                spaceBetween: 0, 
             },
-            breakpoints: {
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 10,
-                },
+            768: { // For tablets and larger
+                slidesPerView: 3,
+                spaceBetween: 0,
             },
-        });
+        },
     });
+});
+
 </script>
 
 <script>
