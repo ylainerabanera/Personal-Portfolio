@@ -35,7 +35,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: #00CED1;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .navbar .nav-links {
@@ -2004,7 +2004,7 @@ footer {
         color: #00CED1;
         margin-left: 30px;
     }
-    
+
     #home-section {
         display: flex;
         flex-direction: column-reverse; 
