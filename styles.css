@@ -607,6 +607,14 @@ footer {
         color: #008B8B;  
     }
 
+    .navbar .webname a {
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #00CED1;
+        margin-left: 30px;
+    }
+
     #home-section {
         display: flex;
         flex-direction: column-reverse;
@@ -952,6 +960,14 @@ footer {
         color: #008B8B;  
     }
 
+    .navbar .webname a {
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #00CED1;
+        margin-left: 30px;
+    }
+
     #home-section {
         display: flex;
         flex-direction: column-reverse; 
@@ -1255,6 +1271,14 @@ footer {
         color: #008B8B;  
     }
 
+    .navbar .webname a {
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #00CED1;
+        margin-left: 30px;
+    }
+
     #home-section {
         display: flex;
         flex-direction: column-reverse; 
@@ -1524,6 +1548,14 @@ footer {
 }
 
 @media (max-width: 320px) {
+    .navbar .webname a {
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #00CED1;
+        margin-left: 30px;
+    }
+
     #home-section {
         display: flex;
         flex-direction: column-reverse; 
@@ -1965,6 +1997,14 @@ footer {
 }
 
 @media (max-width: 360px) {
+    .navbar .webname a {
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #00CED1;
+        margin-left: 30px;
+    }
+    
     #home-section {
         display: flex;
         flex-direction: column-reverse; 
