@@ -115,7 +115,7 @@
                             <div class="content-card">
                                 <a href="https://github.com/Whylane/Airline-Flight-Reservation-System.git" target="_blank" rel="noopener noreferrer" class="project-box">
                                     <img src="img/Capstone Project.jpg" alt="Airline Flight Reservation System interface" loading="lazy">
-                                    <h4>PSU-ACC Airline Flight Reservation Simulation System</h4>
+                                    <h4>Airline Flight Reservation Simulation System</h4>
                                     <h5><em>LARAVEL</em></h5>
                                     <p>This is a system simulation developed for BSTM students enrolled at Pangasinan State University, Alaminos City Campus, as part of their curriculum.</p>
                                 </a>
@@ -548,6 +548,8 @@
         const closeButton = modal.querySelector(".close");
         let previouslyFocusedElement;
 
+        document.body.append(modal);
+
         const closeModal = () => {
             modal.setAttribute("aria-hidden", "true");
             document.body.classList.remove("modal-open");
@@ -562,6 +564,7 @@
 
             const openModal = (event) => {
                 event.preventDefault();
+                event.stopPropagation();
                 previouslyFocusedElement = image;
                 modalImage.src = image.currentSrc || image.src;
                 modalImage.alt = image.alt;

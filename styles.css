@@ -2767,7 +2767,7 @@ a { color: inherit; }
 .content-card:focus-within {
     border-color: var(--accent);
     box-shadow: var(--shadow);
-    transform: translateY(-0.25rem);
+    transform: none;
 }
 
 .project-box {
