@@ -2980,8 +2980,16 @@ a { color: inherit; }
     transform: translateY(-0.14rem);
 }
 
-.social-icon--disabled { opacity: 0.72; }
-.social-icon--disabled:hover { border-color: transparent; background: #e4e4e4; color: #233238; transform: none; }
+.social-icon.instagram:hover,
+.social-icon.instagram:focus-visible { border-color: #e1306c; background: #e1306c; color: #fff; }
+.social-icon.twitter:hover,
+.social-icon.twitter:focus-visible { border-color: #14171a; background: #14171a; color: #fff; }
+.social-icon.facebook:hover,
+.social-icon.facebook:focus-visible { border-color: #1877f2; background: #1877f2; color: #fff; }
+.social-icon.linkedin:hover,
+.social-icon.linkedin:focus-visible { border-color: #0077b5; background: #0077b5; color: #fff; }
+.social-icon.github:hover,
+.social-icon.github:focus-visible { border-color: #333; background: #333; color: #fff; }
 
 #social-links h2 { flex-basis: 100%; }
 
@@ -3200,6 +3208,45 @@ body.modal-open { overflow: hidden; }
     }
 
     .project-box p:not(.tap-view) { -webkit-line-clamp: 3; }
+}
+
+/* The original mobile About layout is a single, centered column. */
+@media (max-width: 46rem) {
+    #about-section {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        justify-items: center;
+        text-align: center;
+    }
+
+    .profile-pic-2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .profile-pic-2 img {
+        width: min(12.5rem, 58vw);
+        height: auto;
+        margin: 0;
+        /* Offset the image by half the left-hand accent so the complete visual is centered. */
+        transform: translateX(0.23rem);
+    }
+
+    .personal-details {
+        width: min(100%, 32rem);
+        margin: 0;
+        text-align: center;
+    }
+
+    .description,
+    .personal-info-list { width: 100%; }
+
+    .list-item {
+        justify-items: center;
+        text-align: center;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
